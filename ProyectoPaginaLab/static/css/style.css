@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    text-align: center;
+}
+.navbar {
+    background-color: #333;
+}
+main {
+    flex: 1;
+    display: flex;
+}
+.left, .right {
+    width: 20%;
+    background-color: #e0e0e0;
+    padding: 10px;
+}
+.center {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.boton{
+    margin: 5%;
+}
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
